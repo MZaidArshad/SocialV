@@ -1,0 +1,29 @@
+.myProfile_body {
+  margin-top: 80px !important;
+  .myProfile_body_gallery {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+    h2 {
+      margin-bottom: 30px;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+  }
+
+  .myProfile_body_feed {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    .post_container {
+      background-color: var(--color-light);
+    }
+  }
+
+  .myProfile_body_profile {
+    margin-top: 20px;
+  }
+}

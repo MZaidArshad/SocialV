@@ -1,0 +1,68 @@
+.create-post {
+  background: var(--color-white);
+  margin-top: 1rem;
+  padding: 0.4rem var(--card-padding);
+  border-radius: var(--border-radius);
+  .text_msg {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .profile-photo {
+      width: 60px !important;
+    }
+  }
+
+  .media-upload {
+    display: flex;
+    align-items: center;
+
+    .upload-label {
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      padding: 0.3rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      text-align: center;
+      margin-right: 1rem;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: var(--color-primary);
+      }
+    }
+
+    input[type="file"] {
+      display: none;
+    }
+
+    .file-name {
+      font-size: 1rem;
+      color: var(--color-dark);
+    }
+  }
+}
+
+.create-post input[type="text"] {
+  width: 100%;
+  justify-self: start;
+  padding-left: 1rem;
+  background: transparent;
+  color: var(--color-dark);
+  margin-right: 1rem;
+  font-size: 16px !important;
+  &::placeholder {
+    color: gray;
+  }
+}
+
+.create-post input[type="submit"] {
+  width: 80px;
+  background-color: var(--color-primary);
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

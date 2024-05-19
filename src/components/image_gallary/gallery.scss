@@ -1,0 +1,15 @@
+.gallery {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 18px;
+  flex-wrap: wrap;
+  .image-container {
+    img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+}

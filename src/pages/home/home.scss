@@ -1,0 +1,21 @@
+main {
+  position: relative !important;
+  top: 5.4rem !important;
+  .container {
+    display: grid !important;
+    grid-template-columns: 18vw auto 20vw !important;
+    column-gap: 2rem !important;
+    position: relative !important;
+    .right {
+      height: max-content;
+      position: sticky;
+      top: var(--sticky-top-right);
+      bottom: 0;
+    }
+    .left {
+      height: max-content !important;
+      position: sticky !important;
+      top: var(--sticky-top-left) !important;
+    }
+  }
+}
